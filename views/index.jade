@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  div.wrapper
+    h1.header-title Install RoviLink
+    img.rovilink-qr-link(src=qrCode)
+
+    button.download-btn(onclick="downloadFile()") download
+
+    script(src="/javascripts/index.js")

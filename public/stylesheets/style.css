@@ -1,0 +1,31 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.header-title{
+  text-align: center;
+  font-size: 32x;
+}
+
+.rovilink-qr-link {
+  object-fit: contain;
+}
+
+.download-btn {
+  font-size: 32px;
+  padding: 10px;
+}
