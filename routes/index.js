@@ -24,7 +24,7 @@ function getLanIp() {
     }
   }
 
-  return `127.0.0.1:${port}`;
+  return `127.0.0.1:${INBOUND_PORT}`;
 }
 
 /* GET home page. */
